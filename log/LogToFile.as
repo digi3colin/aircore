@@ -21,9 +21,8 @@
 //			mdm.Database.SQLite.runQuery(myQuery);
 		}
 
-		public function setLogger(logger : ILog) : ILog {
+		public function setLogger(logger : ILog) : void {
 			imp = logger;
-			return this;
 		}
 	}
 }

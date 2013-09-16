@@ -19,9 +19,8 @@
 			if(imp!=null)imp.log(str,debugLevel);
 		}
 
-		public function setLogger(logger : ILog) : ILog {
+		public function setLogger(logger : ILog) : void {
 			imp = logger;
-			return this;
 		}
 	}
 }
